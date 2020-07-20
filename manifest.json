@@ -1,0 +1,14 @@
+{
+	"name": "UCSD CAPE Ratings",
+	"version": "1.0",
+	"manifest_version": 2,
+	"short_name": "CAPE",
+	"description": "Display ratings from CAPE while planning classes without having to open a separate tab to individually search each class/professor.",
+
+	"icons":
+	{
+		"16": "test16.png",
+		"48": "test48.png",
+		"128": "test128.png"
+	}
+}
