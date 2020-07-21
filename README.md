@@ -3,7 +3,7 @@
 ## Description 
 *Chrome extension to display ratings from CAPE to UCSD class planning site without having to open a separate tab to individually search each class/professor.*
 
-## Collaboraters 
+## Collaborators 
 *Marie Chu*, *Megan Chu*, *Daisy Cheng*
 
 ## References 
