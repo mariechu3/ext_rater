@@ -5,10 +5,24 @@
 	"short_name": "CAPE",
 	"description": "Display ratings from CAPE while planning classes without having to open a separate tab to individually search each class/professor.",
 
-	"icons":
+	"icons": //icons to be displayed 
 	{
-		"16": "test16.png",
-		"48": "test48.png",
-		"128": "test128.png"
-	}
+		"16": "icons/test16.png",
+		"48": "icons/test48.png",
+		"128": "icons/test128.png"
+	},
+	"background": 
+	{
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": ["*://cape.ucsd.edu/*", "activeTab"],
+	"content_scripts":
+	[
+		{
+			"matches": ["*://act.ucsd.edu/webreg2/main?*"],
+			"css": ["styles.css"],
+			"js": ["content.js"]
+		}
+	]
 }
