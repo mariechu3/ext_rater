@@ -2,7 +2,7 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
   "manifest_version": 2,
-  "name": "Easy Bruinwalk Ratings",
+  "name": "Easy Bruinwalk Ratings 2",
   "description": "Easily see Bruinwalk professor ratings in UCLA class search results.",
   "version": "0.4.2",
   "short_name": "Bruinwalk",
@@ -12,7 +12,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://be.my.ucla.edu/*", "*://sa.ucla.edu/*"],
+      "matches": ["*://act.ucsd.edu/wegreg2/main?*"],
       "js": ["content.js"],
       "css": ["styles.css"],
       "run_at": "document_end"

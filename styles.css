@@ -1,0 +1,10 @@
+/* change background to sunset waves giphy */
+
+body {
+  background: url('https://media.giphy.com/media/Q9Ft3xEhO0bdK/giphy.gif') !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-size: cover !important; // or 100% 100%;
+  background-color: fade(#ffffff,10%) !important;
+  //opacity: 0.2;
+}
