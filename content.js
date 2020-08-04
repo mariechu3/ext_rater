@@ -12,6 +12,8 @@ button.addEventListener ("click", function() {
   alert("did something");
 });
 
+/*
 var row = document.getElementById("ui-jqgrid-labels ui-sortable");
 var x = row.insertCell(0);
 x.innerHTML = "New cell";
+*/
